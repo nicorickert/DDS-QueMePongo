@@ -1,0 +1,10 @@
+1. No modelé lo de atuendo/usuarios ya que pienso que no aportan nada significativo a esta etapa.
+2. Utilizo Enums ya que pensé en esto como un formulario de carga, simulando una base de datos,entonces tendría valores fijos:
+ 2.a: Con strings un usuario podria cargar algo en minuscula, mal escrito etc.
+ 2.b: No vi necesario utilizar clases ya que al menos en esta etapa no tienen comportamiento, esto no se si está bien, ya que no estoy programando de más, pero ante un cambio de que si tengan funcionalidad deberia hacer las cosas de nuevo.
+
+
+
+3. No dejo el campo categoría, ya que me parece innecesario porque el usuario debería cargar categoría y tipo. y luego validar que el tipo coincida con la categoría,
+y esta categoría debería estar asociada en algún lado del código (o base de datos, como lo pensé yo). Por lo que decidí que se cargue automáticamente, total la prenda
+tiene los metodos necesarios para saber a que categoria pertenece, a través del tipo.
